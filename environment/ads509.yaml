@@ -4,23 +4,24 @@ channels:
   - defaults
 dependencies:
   - python=3.11 # stable and supported by most libraries
-  - emoji
-  - requests
   - beautifulsoup4
-  - lxml # faster parser for BeautifulSoup
-  - regex # better regex engine than stdlib re
-  - pandas
-  - numpy
-  - scikit-learn
-  - nltk
-  - spacy
-  - matplotlib
-  - seaborn
-  - tabulate
-  - jupyterlab
-  - notebook
+  - emoji
   - ipykernel
+  - jupyterlab
+  - lxml # faster parser for BeautifulSoup
+  - pandas
+  - matplotlib
+  - nltk
+  - notebook
+  - numpy
+  - requests
+  - regex # better regex engine than stdlib re
+  - scikit-learn
+  - seaborn
+  - spacy
+  - tabulate
   - tqdm # for progress bars
+  - wordcloud
   - pip
   - pip:
       - openai # if you need to experiment with LLM APIs
