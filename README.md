@@ -8,7 +8,7 @@ Assignments are organized into subfolders by week. Each folder includes its own 
 
 - [Week 1 – Data Acquisition](wk1/README.md)
 - [Week 2 – Tokenization, Normalization, and Descriptive Statistics](wk2/README.md)
--
+- [Week 3 - Group Comparison](wk3/README.md)
 
 ## License / Usage
 
