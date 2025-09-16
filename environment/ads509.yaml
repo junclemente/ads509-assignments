@@ -16,6 +16,7 @@ dependencies:
   - spacy
   - matplotlib
   - seaborn
+  - tabulate
   - jupyterlab
   - notebook
   - ipykernel
