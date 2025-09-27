@@ -144,3 +144,6 @@ dmypy.json
 
 # Pickle files
 *.pkl
+
+datasets/*
+archive/*

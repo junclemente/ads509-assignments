@@ -80,3 +80,6 @@ celerybeat.pid
 # Spyder
 .spyderproject
 .spyproject
+
+
+datasets/*
