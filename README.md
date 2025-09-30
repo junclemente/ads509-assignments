@@ -10,7 +10,7 @@ Assignments are organized into subfolders by week. Each folder includes its own 
 - [Week 2 – Tokenization, Normalization, and Descriptive Statistics](wk2/README.md)
 - [Week 3 - Group Comparison](wk3/README.md)
 - [Week 4 - Text Classification Model](wk4/README.md)
-- Week 5
+- [Week 5 - Topic Modeling](wk5/README.md)
 - Week 6
 
 ## License / Usage
