@@ -24,5 +24,4 @@ dependencies:
   - wordcloud
   - pip
   - pip:
-      - openai # if you need to experiment with LLM APIs
-      - transformers # HuggingFace models
+      - pyLDAvis==3.4.1
