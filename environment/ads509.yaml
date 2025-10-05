@@ -3,26 +3,26 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.11 # stable and supported by most libraries
-  - beautifulsoup4
-  - emoji
-  - ipykernel
-  - jupyterlab
-  - lxml # faster parser for BeautifulSoup
-  - pandas
-  - matplotlib
-  - nltk
-  - notebook
-  - numpy
-  - requests
-  - regex # better regex engine than stdlib re
-  - scikit-learn
-  - seaborn
-  - spacy
-  - tabulate
-  - tqdm # for progress bars
-  - wordcloud
+  - python=3.11 # Stable version for ADS509
+  - beautifulsoup4 # For web scraping / HTML parsing
+  - emoji # For emoji handling in text preprocessing
+  - ipykernel # Enables Jupyter kernel
+  - jupyterlab # Main interface for notebooks
+  - lxml # Fast parser for BeautifulSoup
+  - pandas # Core dataframe operations
+  - matplotlib # Plotting and visualization
+  - nltk # Tokenization, stopwords, etc.
+  - notebook # Runs Jupyter notebooks
+  - numpy # Numerical computations
+  - requests # For HTTP requests and web scraping
+  - regex # Enhanced regular expression engine
+  - scikit-learn # Machine learning, NMF, LDA, vectorizers
+  - seaborn # Visualization aesthetics
+  - spacy # NLP processing and stopwords
+  - tabulate # Optional: pretty-printing tables (small footprint)
+  - tqdm # Progress bars
+  - wordcloud # Topic visualization
   - pip
   - pip:
-      - pyLDAvis==3.4.1
+      - pyLDAvis==3.4.1 # Interactive topic model visualization
       - en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
